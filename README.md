@@ -1,5 +1,7 @@
 #  Clima
 
+Weather application
+
 ### Condition Codes
 ```
 switch conditionID {
