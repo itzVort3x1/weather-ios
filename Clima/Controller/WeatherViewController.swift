@@ -49,5 +49,9 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         searchTextField.placeholder = "Search"
     }
     
+    func didUpdateWeather(weather: WeatherModel){
+        print(weather.temperature)
+    }
+    
 }
 
